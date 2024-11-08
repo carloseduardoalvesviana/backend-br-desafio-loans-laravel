@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/customer-loans HTTP/1.1
+content-type: application/json
+Accept: application/json
+
+{
+    "age": 30,
+    "cpf": "275.484.389-23",
+    "name": "Jhon Stuart",
+    "income": 3000,
+    "location": "SP"
+}
